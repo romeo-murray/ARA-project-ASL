@@ -9,8 +9,8 @@ Firstly, this project will not have a live demo as there wasn't enough time to c
 
 Thirdly, this is a school oriented project. This means that *no, this is not professional level coding*, and there are most likely mistakes or possible resource leaks, or issues due to there being a massive lack of time. If there is something that is easy to fix, feel free to correct us, or take the code and improve it yourselves!
 
-# How to Run
-# Firstly, all the installs you will need to run the files:
+## How to Run
+### Firstly, all the installs you will need to run the files:
 
 Python (this is redundant considering the project, but still)
 
@@ -31,7 +31,13 @@ pexpect (for more audio playing)
 
 If there are still import issues, we apologize as it was quite the effort to get this all working, and most of the beginning was finding what was updated and would work still and what wouldn't.
 
-# Secondly, the order to run the files:
+### Secondly, how to obtain all necessary files
+
+Now that those imports are sorted out, lets get the necessary files. Download everything that is provided on the github (the README is optional, of course), and ensure that the folder for the test files is all in order just like the file training_set_labels.txt. Next, the big one. The full dataset titled asl_training_images can be found under the tags of this repository. Click on the tags>data then go to assets, and download the asl_training_images.zip. You then need to extract the images, and place all downloaded files and folders into the same directory.
+
+Then, open up whatever IDE you choose, (make sure that it uses a python interpreter that has access to all the installs above), and you may begin the process to running this program.
+
+### Thirdly, the order to run the files:
 
 Now, if all the imports are correct, we can move onward. First, you should run the asl_create_testset file. It should be as simple as opening the file, changing DATADIR to the path you have downloaded the asl_alphabet_test, and then running the file. Two files, *X_test.pickle* and *Y_test.pickle* should be created. You can uncomment the code at the bottom to ensure the data is able to be loaded back in.
 
@@ -39,7 +45,7 @@ If it all ran smoothly, then prepare the second longest part, loading in asl_cre
 
 Now, to create the model: Run the asl_test_core file. Here, you need to again change the directory path at the very bottom this time, on the line model.save("C:/your/path/here/"). Once you have done this, you should be able to run the file, and it will create a file called *saved_model.pb*. This is the final step, note that your prompt should also show you the EPOCHS and general summary of the model that is created upon running this file. If errors occur, then trace them back and see if it is the data, or the model. If its the model, then you can go to TensorFlow's documentation of a CNN and compare it. If its the data, then you should check out sentdex on YouTube, as he was our reference for a good chunk of loading in datasets.
 
-### How to get a prediction
+## How to get a prediction
 
 Hooray! The model must be saved if you're here. This means the fun part, there will be a bunch of new files in your directory, but the most important at this point is the *saved_model.pb* and *training_set_labels.txt*. Go to the file query_classification_new and once again edit the directory, this time only leaving the directory path, *not* all the way to the saved_model file. It would look like ("C:\your\directory\\"), then change the path given to the playsound function at the bottom of the file, that one you should include the prediction.mp3 (that the file generates) in the path.
 
