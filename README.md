@@ -1,4 +1,4 @@
-# ARA-asl-project
+# ARA-project-ASL
 A program that translates ASL to English text, utilizing TensorFlow's built-in convolutional neural network. It is considerably a remaster of an older model made by @grassknoted and @anaskhan96.
 
 ## The Idea
