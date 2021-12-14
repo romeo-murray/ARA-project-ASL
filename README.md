@@ -19,7 +19,6 @@ PIP (the shall we say, installer)
 Tensorflow (this will include Keras)
 
 {{everything under here can be installed via 'pip install'}}
-
 pillow (for graphics/images)
 
 PIL (subsidary of pillow)
