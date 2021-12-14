@@ -25,7 +25,7 @@ language = 'en'
 image_path = sys.argv[1]
 
 # load up the newest model
-model = keras.models.load_model("C:\dev\ARA-asl-project\\") # put where you store the saved-model here
+model = keras.models.load_model("C:\your\directory\here\\") # put where you store the saved-model here
 
 # convert the image to a tensorflow readable format
 image_data = image.load_img(image_path, target_size=(50, 50))
