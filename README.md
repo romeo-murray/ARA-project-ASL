@@ -13,14 +13,21 @@ Thirdly, this is a school oriented project. This means that *no, this is not pro
 # Firstly, all the installs you will need to run the files:
 
 Python (this is redundant considering the project, but still)
+
 PIP (the shall we say, installer)
+
 Tensorflow (this will include Keras)
 
-{{everything under here can be installed via 'pip install'
+{{everything under here can be installed via 'pip install'}}
+
 pillow (for graphics/images)
+
 PIL (subsidary of pillow)
+
 GTTS (google text to speech)
+
 playsound==1.2.2 (for playing audio)
+
 pexpect (for more audio playing)
 
 If there are still import issues, we apologize as it was quite the effort to get this all working, and most of the beginning was finding what was updated and would work still and what wouldn't.
