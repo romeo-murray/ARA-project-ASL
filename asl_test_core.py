@@ -82,4 +82,4 @@ with tf.device("cpu:0"):
     print(test_acc)
     
     # then we save the model
-    model.save('C:/dev/ARA-asl-project/')
+    model.save('C:/your/chosen/directory/path/here/')
