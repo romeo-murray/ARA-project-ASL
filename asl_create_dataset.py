@@ -5,7 +5,7 @@ import random
 import pickle
 
 IMG_SIZE = 50 # size of the images (for compression)
-DATADIR = 'C:/your/directory/asl_alphabet_train/' # place the directory path for the asl_training_images here
+DATADIR = 'C:/your/directory/asl_alphabet_train/' # place the directory path for the asl_training_images here 
 CATEGORIES = ['A', 'B', 'C', 'D', 'del', 'E', 'F', 'G', 'H', 'I', 
              'J', 'K', 'L', 'M', 'N', 'nothing', 'O', 'P', 'Q', 'R', 
              'S', 'space', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
