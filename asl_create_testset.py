@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import os
 import cv2
 import random
@@ -54,6 +53,6 @@ pickle.dump(Y, pickle_out)
 pickle_out.close()
 
 # testing loading the dataset to ensure we got it right
-# pickle_in = open("X.pickle", "rb")
+# pickle_in = open("X_test.pickle", "rb")
 # X = pickle.load(pickle_in)
 # print(X[1])
