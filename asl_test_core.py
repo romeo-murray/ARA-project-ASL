@@ -9,8 +9,10 @@ from tensorflow.keras import models, layers
 print("TensorFlow version: ", tf.__version__)
 
 """
-@author: Romeo, Ashwin, Angela
-References: Youtube Users - Aladdin Persson, sentdex, TensorFlow documentation, Keras documentation, StackOverFlow
+@authors: Romeo Garcia, Ashwin Deodhar, Angela You
+
+References: [Youtube Users - Aladdin Persson, sentdex]
+TensorFlow documentation, Keras documentation, StackOverFlow
 Dataset provided from: Akash Nagaraj and Anas Khan
 
 This is an updated version of the code that allowed for ASL to be translated from images
