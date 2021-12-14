@@ -17,6 +17,7 @@ Create a new image of PNG or JPEG (or whatever images that TensorFlow accepts) a
 
 ## Results
 ![image](https://user-images.githubusercontent.com/92128432/145925092-bfda24df-41fb-4341-8b20-912f443d27a7.png)
+
 The accuracy rate in the end was able to increase to about 98%, but this was based on TensorFlow testing through evaluation and validation processes. After performing our own tests, we had found a few notable issues that remain unresolved. 
 
 ### Issues
